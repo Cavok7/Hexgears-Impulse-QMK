@@ -17,11 +17,11 @@
 #define MATRIX_COLS 21
 
 /* COL2ROW, ROW2COL */
-#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 
 /* Keyboard Matrix Assignments */
 #define MATRIX_ROW_PINS { C15, D11, D10, D9, D8, D7 }
-#define MATRIX_COL_PINS { A8, A10, A11, A12, A13, A14, A15, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13 }
+#define MATRIX_COL_PINS { A9, A10, A11, A12, A13, A14, A15, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13 }
 #define UNUSED_PINS
 
 
@@ -121,5 +121,5 @@
 #define NO_ACTION_FUNCTION
 
 /* Bootmagic Lite key configuration */
-//#define BOOTMAGIC_LITE_ROW 0
-//#define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
