@@ -12,13 +12,3 @@ RGB
 MCU - HFD2201KBA
 
 LED - HFD9901LIA (SLED1734x)
-
-
-# MCU-LED Pinout
-AD - C0
-
-SDA - A7(A8?)
-
-SDB - 
-
-SDCL - A6(A5?)
