@@ -15,8 +15,10 @@ LED - HFD9901LIA (SLED1734x)
 
 
 # MCU-LED Pinout
-C0      - AD/18
+AD - C0
 
-A7(A8?) - SDA/19
+SDA - A7(A8?)
 
-A6(A5?) - SCL/20
+SDB - 
+
+SDCL - A6(A5?)
